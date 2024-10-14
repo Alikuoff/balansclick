@@ -1,0 +1,57 @@
+body {
+    background-color: #0a0a0a;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#balans {
+    color: #ff00ff;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    background-color: #1a1a1a;
+    border: 2px solid #00ff00;
+    color: #00ff00;
+    font-size: 1em;
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+button {
+    background-color: #ff00ff;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ff00;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
+
+#natija {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #ff00ff;
+}
