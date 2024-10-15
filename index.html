@@ -1,13 +1,18 @@
-let balans = 2000000;
-document.getElementById('balans').textContent = balans;
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliqlov Azizjon</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>CLICK BALANSINGIZ</h1>
+    <p>Joriy balans: <span id="balans"></span> so'm</p>
+    <input type="number" id="mablag" placeholder="Yechmoqchi bo'lgan mablag'ni kiriting">
+    <button onclick="withdraw()">Pul yechish</button>
+    <p id="natija"></p>
 
-function withdraw() {
-    let mablag = parseInt(document.getElementById('mablag').value);
-    if (mablag <= balans) {
-        balans -= mablag;
-        document.getElementById('balans').textContent = balans;
-        document.getElementById('natija').textContent = `${mablag} so'm muvaffaqiyatli yechildi. Qolgan balans: ${balans} so'm`;
-    } else {
-        document.getElementById('natija').textContent = "Kechirasiz, hisobingizda yetarli mablag' mavjud emas.";
-    }
-}
+</body>
+</html>
+
